@@ -161,7 +161,7 @@ i{
     object-fit: cover;
 }
 .projects{
-    min-height: 100vh;
+    
     padding: 2em 4em;
 }
 p:not(.why-p){
@@ -186,8 +186,9 @@ p:not(.why-p){
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(6, 300px);
+    grid-template-rows: repeat(5, 300px);
     margin-top: 2em;
+    min-height: 100vh;
 }
 .container img{
     width: 100%;
@@ -295,7 +296,7 @@ footer span{
         display: grid;
         gap: 8px;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(6, 250px);
+        grid-template-rows: repeat(5, 250px);
         margin-top: 2em;
     }
     nav ul{
@@ -306,6 +307,7 @@ footer span{
     .projects{
         min-height: 230vh;
         padding: 2em 4em;
+        padding-bottom: 4em;
     }
     nav{
         width: 100%;
@@ -379,7 +381,13 @@ footer span{
     .contacts{
         padding: 2em;
     }
-    
+    .container{
+        display: grid;
+        gap: 8px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 250px);
+        margin-top: 2em;
+    }
     .social:hover > .social-name{
         display:none;
     }
@@ -390,17 +398,9 @@ footer span{
     .social{
         margin-top: 2em 1.2em;
     }
-
-    .container{
-        display: grid;
-        gap: 8px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(10, 250px);
-        margin-top: 2em;
-    }
     .projects{
         padding: 2em;
-        height: auto;
+        height: 300vh;
     }
     nav{
         padding: 2em;
