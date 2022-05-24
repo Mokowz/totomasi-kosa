@@ -161,7 +161,7 @@ i{
     object-fit: cover;
 }
 .projects{
-    min-height: 275vh;
+    min-height: 100vh;
     padding: 2em 4em;
 }
 p:not(.why-p){
@@ -379,9 +379,7 @@ footer span{
     .contacts{
         padding: 2em;
     }
-    .container{
-        height: fit-content;
-    }
+    
     .social:hover > .social-name{
         display:none;
     }
@@ -402,7 +400,7 @@ footer span{
     }
     .projects{
         padding: 2em;
-        height: 300vh;
+        height: auto;
     }
     nav{
         padding: 2em;
